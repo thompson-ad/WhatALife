@@ -1,7 +1,7 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {BottomTabsParamList} from './types';
-import {HomeTabNavigator} from './HomeTabsNavigator';
+import {HomeStackNavigator} from './HomeStackNavigator';
 
 const BottomTabs = createBottomTabNavigator<BottomTabsParamList>();
 
@@ -10,7 +10,7 @@ export const BottomTabsNavigator = () => {
     <BottomTabs.Navigator>
       <BottomTabs.Screen
         name="HomeTab"
-        component={HomeTabNavigator}
+        component={HomeStackNavigator}
         options={{headerShown: false}}
       />
     </BottomTabs.Navigator>

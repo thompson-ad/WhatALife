@@ -6,7 +6,7 @@ import {HomeStackParamList} from './types';
 
 const HomeStack = createStackNavigator<HomeStackParamList>();
 
-export const HomeTabNavigator = () => {
+export const HomeStackNavigator = () => {
   return (
     <HomeStack.Navigator initialRouteName="Home">
       <HomeStack.Screen name="Home" component={Home} />

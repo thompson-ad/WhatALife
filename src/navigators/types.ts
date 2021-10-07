@@ -8,6 +8,10 @@ export type BottomTabsParamList = {
   HomeTab: NavigatorScreenParams<HomeStackParamList>;
 };
 
+export type AuthenticationStackParamList = {
+  Welcome: undefined;
+};
+
 export type HomeStackParamList = {
   Home: undefined;
 };

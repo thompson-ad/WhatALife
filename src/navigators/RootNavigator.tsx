@@ -5,7 +5,7 @@ import {BottomTabsNavigator} from './BottomTabsNavigator';
 
 const RootStack = createStackNavigator<RootStackParamList>();
 
-export const RootNavigator = () => {
+export const RootStackNavigator = () => {
   return (
     <RootStack.Navigator initialRouteName="BottomTabs">
       <RootStack.Screen
